@@ -25,12 +25,14 @@ public class Main {
         musteriListesi.put(bireyselMusteri4.getMusteriNo(),bireyselMusteri4);
         musteriListesi.put(bireyselMusteri5.getMusteriNo(),bireyselMusteri5);
         System.out.println("*************************");
-        System.out.println("ATM uygulamasına hoşgeldiniz.");
+        System.out.println("ATM Uygulamasına Hoşgeldiniz.");
+        System.out.println("Kayıtlı Örnek Müşteri Numaraları :001,002...,005");
         System.out.println("*************************");
 
         while (true){
 
             System.out.println("(Çıkış için 'q' tuşuna basınız)\nLütfen müşteri numaranızı giriniz: ");
+
             Scanner input =new Scanner(System.in);
             String musteriNoInput =input.nextLine();
             if(musteriNoInput.equals("q") || musteriNoInput.equals("Q")){
