@@ -20,7 +20,7 @@ public class ParaIslemleri {
                     break;
                 }
             }
-            System.out.println("Gecersiz sayi girdiniz.\nLutfen islem yapilacak miktari giriniz:");
+            System.out.println("Gecersiz sayi girdiniz.\nLutfen islem yapilacak miktari giriniz(Çıkış için 'q' tuşunu kullanınız):");
         }
 
         if(quit==false){
@@ -52,7 +52,7 @@ public class ParaIslemleri {
                     break;
                 }
             }
-            System.out.println("Gecersiz sayi girdiniz.\nLutfen islem yapilacak miktari giriniz:");
+            System.out.println("Gecersiz sayi girdiniz.\nLutfen islem yapilacak miktari giriniz(Çıkış için 'q' tuşunu kullanınız):");
         }
 
         if(quit==false){
